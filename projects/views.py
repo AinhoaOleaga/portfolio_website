@@ -2,7 +2,7 @@ from django.shortcuts import render
 from projects.models import Project
 
 
-def prokect_index(request):
+def project_index(request):
     # Perform a query that retrieves all objects in the Project database
     # This query returns a collection known as Queryset
     projects = Project.objects.all()
